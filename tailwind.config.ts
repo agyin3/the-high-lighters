@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        highlightersGreen: 'var(--highlighters-green)',
+        highlightersRed: 'var(--highlighters-red)',
+        highlightersYellow: 'var(--highlighters-yellow)',
+        highlightersOrange: 'var(--highlighters-orange)',
+      },
+      fontFamily: {
+        'shrikhand': ['Shrikhand', 'cursive'],
       },
     },
   },
