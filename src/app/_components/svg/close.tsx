@@ -5,7 +5,7 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
 }
 
 const Close = React.forwardRef<SVGSVGElement, IconProps>(
-    ({ className, color, ...props }, ref) => (
+    ({ className, ...props }, ref) => (
         <svg
             ref={ref}
             {...props}

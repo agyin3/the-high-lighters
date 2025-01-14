@@ -1,4 +1,3 @@
-import Soundcloud from "@/app/_components/svg/soundcloud";
 interface StreamingLinkProps {
     href: string;
     children?: React.ReactNode;

@@ -1,6 +1,3 @@
-import { MemberCardProps } from "./components/member-card";
-
-
 export interface HighlighterInfo {
     name: string;
     bio: string;
