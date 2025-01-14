@@ -20,3 +20,8 @@ h2,
 h3 {
   font-family: 'Shrikhand', cursive;
 }
+
+.text-outline {
+  -webkit-text-stroke: var(--highlighters-orange);
+  -webkit-text-stroke-width: 2px;
+}

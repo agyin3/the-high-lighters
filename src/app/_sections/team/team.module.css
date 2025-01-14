@@ -1,0 +1,6 @@
+.teamBg {
+    background: var(--highlighters-red);
+    background-image: url('/textures/texture-2.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+}

@@ -6,14 +6,14 @@ export interface NavLink {
 export const homeNavLinks: NavLink[] = [
     {
         title: "Stream Now",
-        href: "#streamnow",
+        href: "#stream-now",
     },
     {
         title: 'Higher Frequencies',
         href: "#higher-frequencies",
     },
     {
-        title: "The High Lighters",
-        href: "#the-high-lighters",
+        title: "Meet The Lighters",
+        href: "#meet-the-lighters",
     },
 ];

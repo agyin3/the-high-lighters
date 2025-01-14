@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${shrikhand.variable} antialiased`}>
+            <body className={`${shrikhand.variable} antialiased scroll-smooth`}>
                 {children}
             </body>
         </html>

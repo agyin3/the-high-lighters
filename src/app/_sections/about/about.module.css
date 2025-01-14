@@ -1,0 +1,6 @@
+.aboutBg {
+    background: var(--highlighters-green);
+    background-image: url('/textures/texture-1.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+}

@@ -15,7 +15,7 @@ const Burger = React.forwardRef<SVGSVGElement, IconProps>(
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            color={color}
+            color="#fff"
         >
             <path
                 d="M4 5L20 5"
