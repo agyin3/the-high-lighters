@@ -9,7 +9,7 @@ export interface TeamProps {
 export function Team({ usesMobile }: TeamProps) {
     return (
         <div
-            className={`w-full flex flex-col justify-center items-center bg-highlightersRed py-8 px-2 ${styles.teamBg}`}
+            className={`w-full flex flex-col justify-center items-center bg-highlightersRed py-14 px-2 ${styles.teamBg}`}
             id="meet-the-lighters"
         >
             <h1 className="text-4xl sm:text-5xl text-highlightersOrange text-center mb-6">

@@ -14,8 +14,8 @@ export function Hero({ usesMobile }: HeroProps) {
             href: "https://youtube.com/societyofundergroundleaders",
             children: (
                 <Spotify
-                    height={usesMobile ? "30" : "50"}
-                    width={usesMobile ? "30" : "50"}
+                    height={usesMobile ? "25" : "50"}
+                    width={usesMobile ? "25" : "50"}
                     color="var(--highlighters-red)"
                 />
             ),
@@ -43,11 +43,11 @@ export function Hero({ usesMobile }: HeroProps) {
             <div className="z-[1] flex flex-col justify-center items-center gap-4">
                 <Image
                     src="/higher-frequencies-1200-square.png"
-                    width={usesMobile ? 200 : 400}
-                    height={usesMobile ? 200 : 400}
+                    width={usesMobile ? 150 : 300}
+                    height={usesMobile ? 150 : 300}
                     alt="Higher Frequencies album cover"
                 />
-                <h1 className="text-center text-4xl sm:text-6xl text-highlightersOrange">
+                <h1 className="text-center text-3xl sm:text-5xl text-highlightersOrange">
                     Stream Now
                 </h1>
                 <div className="flex gap-4">

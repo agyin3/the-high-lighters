@@ -8,7 +8,7 @@ interface AboutProps {
 export function About({ usesMobile }: AboutProps) {
     return (
         <div
-            className={`w-full flex flex-col items-center bg-highlightersGreen py-8 px-2 sm:px-8 relative text-black ${styles.aboutBg}`}
+            className={`w-full flex flex-col items-center bg-highlightersGreen py-14 px-2 sm:px-8 relative text-black ${styles.aboutBg}`}
             id="higher-frequencies"
         >
             <div className="w-3/4 sm:w-auto flex flex-col items-center justify-center z-10">
