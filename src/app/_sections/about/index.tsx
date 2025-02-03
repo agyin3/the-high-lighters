@@ -13,9 +13,8 @@ export function About({ usesMobile }: AboutProps) {
         >
             <div className="w-3/4 sm:w-auto flex flex-col items-center justify-center z-10">
                 <YoutubeVideo
-                    src="https://www.youtube.com/embed/nJGjGikyh4Y?si=jEp_-aqCKqFdN0y9"
-                    title="Urban Nightscapes: Lofi Beats to Vibe with the City After Dark"
-                    // className="w-full h-auto"
+                    src="https://www.youtube.com/embed/jhHICfizk7Y"
+                    title="Higher Frequencies"
                     width={usesMobile ? "280" : "560"}
                     height={usesMobile ? "140" : "315"}
                 />
